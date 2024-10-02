@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    background :url(../../web\ bg.jpeg);
+    background-size: contain; /* Image ko size mein rakhne ke liye */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set height of body to full viewport height */
+    background-size: 100vh;
+    margin: 0; /* Remove default margin */
+    background-color: rgba(32, 255, 162, 0.979); 
+    
+    
+}
+.Navbar{
+    background: rgb(30, 172, 238);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+
+}
+
+nav a {
+    margin: 70px;
+    padding: 50px;
+    -webkit-text-fill-color:rgb(128, 0, 96);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.home{
+   
+    margin: 0px;
+    padding: 200px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 32px;
+    justify-content: center;
+    display: contents;
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-style: italic;
+    }
+    
+    }
+
+
+.about{
+    margin: 0px;
+    padding: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    justify-content: center;
+    display: contents;
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-style: italic;
+    }
+}
+
+.courses{
+    margin: 0px;
+    padding: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-display: center;
+    justify-content: center;
+    display: contents;
+    h1{
+        font-size: 45px;
+    }
+    /* Your CSS code */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove padding */
+  }
+  
+  li {
+    position: relative; /* Position relative for the pseudo-element */
+    padding-left: 20px; /* Add space for the dot */
+  }
+  
+  li::before {
+    content: '•'; /* Custom bullet character */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align to the left */
+    color: black; /* Set bullet color */
+    font-size: 35px; /* Size of the bullet */
+  }
+  
+}
+
+.jobs{margin: 0px;
+    padding: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 33px;
+    font-display: center;
+    justify-content: center;
+    display: contents;
+    h1{
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 36px;
+        color: rgb(0, 4, 255);
+      }
+      p{
+        font-style: italic;
+      }
+      li{
+        font-style: italic;
+      }
+}
+
+.contact{
+   
+    margin: 0px;
+    padding: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    justify-content: center;
+    display: contents;
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-style: italic;
+        font-size: 36;
+    }
+}
+
+nav a:hover {
+    color: #e62222; 
+    background-color: rgba(225, 231, 255, 0.7); /* Background change on hover */
+    background-size: 20px;
+    font-weight: bold; /* Make text bold on hover */
+  }
+  
